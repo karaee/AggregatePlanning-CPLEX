@@ -34,3 +34,5 @@ Considering the administrative costs and inefficiencies during the orientation p
 
 Formulate and solve the aggregate production planning problem. To develop the aggregate plan, you will need to construct and solve a linear programming problem minimizing the overall cost comprised of production, holding inventory and
 workforce related (regular time and overtime) costs. Shortages are not allowed.
+
+The [model](https://github.com/karaee/AggregatePlanning-CPLEX/blob/main/model.lp) and the [result](https://github.com/karaee/AggregatePlanning-CPLEX/blob/main/result.txt) can be found in the repository.

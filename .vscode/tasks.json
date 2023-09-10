@@ -1,0 +1,43 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cl.exe etkin dosyayı derle",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/MD",
+                "/nologo",
+                "/Fo${workspaceFolder}\\debug\\",
+                "/Fd${workspaceFolder}\\debug\\",
+                "/Fe${workspaceFolder}\\debug\\",
+                "${workspaceFolder}\\src\\*.cpp",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/lib/x64_windows_msvc14/stat_mda/cplex2211.lib",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/lib/x64_windows_msvc14/stat_mda/ilocplex.lib",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/concert/lib/x64_windows_msvc14/stat_mda/concert.lib",
+                "/I",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/bin/x64_win64",
+                "/I",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/concert/include",
+                "/I",
+				"D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/include",
+                "/link",
+                "/MACHINE:X64"
+                
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Hata Ayıklayıcısı tarafından oluşturulan görev."
+        }
+    ],
+    "version": "2.0.0"
+}

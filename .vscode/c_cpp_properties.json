@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+				"D:/Program Files/IBM/ILOG/CPLEX_Studio2211/concert/include",
+				"D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/include",
+                "D:/Program Files/IBM/ILOG/CPLEX_Studio2211/cplex/bin/x64_win64"
+            ],
+            "defines": [
+                "NDEBUG",
+                "_CONSOLE",
+                "IL_STD"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

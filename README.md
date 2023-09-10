@@ -1,4 +1,4 @@
-# AggregatePlanning-CPLEX
+# Aggregate Planning Problem Solved with CPLEX
 Aggregate Planning Problem is solved with an MILP model using CPLEX in C++
 
 # Problem Definition
